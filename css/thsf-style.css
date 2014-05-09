@@ -3,6 +3,7 @@
 body {
     background: #000;
     color: #FFF;
+    font-family: monospace;
 }
 
 #logo {
@@ -16,4 +17,8 @@ body {
 
 h1 {
     text-align: center;
+}
+
+#programm {
+    float: right;
 }
