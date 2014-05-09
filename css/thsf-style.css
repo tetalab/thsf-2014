@@ -6,6 +6,10 @@ body {
     font-family: monospace;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.5em 0;
+}
+
 a {
     color: #B0E2B9;
 }
@@ -27,6 +31,32 @@ h1 {
     float: right;
 }
 
+/* Programm details */
+
+.event {
+    position: relative;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-bottom: 0.1em dotted #444;
+}
+.description {
+    padding-left: 80px;
+}
+.description h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info-pratique {
+    position: absolute;
+    width: 60px;
+    top: 0.5em;
+    left: 0;
+    margin-right: 10px;
+}
+.qui {
+    font-weight: bold;
+    color: #FF7500;
+}
 #contact {
     float: left;
 }
