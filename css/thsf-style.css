@@ -6,6 +6,10 @@ body {
     font-family: monospace;
 }
 
+a {
+    color: #B0E2B9;
+}
+
 #logo {
     float: left;
 }
@@ -21,4 +25,8 @@ h1 {
 
 #programm {
     float: right;
+}
+
+#contact {
+    float: left;
 }
