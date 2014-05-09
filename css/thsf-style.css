@@ -1,0 +1,19 @@
+/* Styles for THSF 2014 */
+
+body {
+    background: #000;
+    color: #FFF;
+}
+
+#logo {
+    float: left;
+}
+
+#logo > pre {
+  color: #FFFFFF;
+  font: 5px/3px monospace;
+}
+
+h1 {
+    text-align: center;
+}
