@@ -17,7 +17,6 @@ a {
 
 #logo {
     position: fixed;
-    left: -60px;
 }
 
 #logo > pre {
@@ -30,14 +29,16 @@ h1 {
     padding-right: 20px;
 }
 #programm, #home {
-    margin-left: 600px;
+    margin-left: 200px;
 }
 .nav {
     position: fixed;
-    margin-left: 400px;
+    left: 20px;
+    top: 20px;
 }
 
-/* Programm details */
+/* Programm details *
+ * ---------------- */
 
 .event {
     position: relative;
