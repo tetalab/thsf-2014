@@ -15,9 +15,6 @@ a {
 }
 
 
-#logo {
-    position: fixed;
-}
 
 #logo > pre {
   color: #FFFFFF;
@@ -28,8 +25,27 @@ h1 {
     text-align: right;
     padding-right: 20px;
 }
-#programm, #home {
-    margin-left: 200px;
+#content {
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+#logo {
+    position: fixed;
+}
+    #content {
+        margin-left: 300px;
+    }
+}
+@media (min-width: 980px) {
+    #content {
+        margin-left: 480px;
+    }
+}
+@media (min-width: 1180px) {
+    #content {
+        margin-left: 600px;
+    }
 }
 .nav {
     position: fixed;
