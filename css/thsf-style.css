@@ -31,11 +31,14 @@ h1 {
 }
 
 @media (min-width: 768px) {
+    #logo >pre {
+        margin-left: -40px;
+    }
 }
 @media (min-width: 1180px) {
     #logo {
         position: fixed;
-        left: -40px;
+        margin-left: -100px;
     }
     #logo h1 {
         margin-left: 60px;
@@ -45,6 +48,11 @@ h1 {
     position: fixed;
     left: 0px;
     top: 0px;
+    z-index: 10;
+    background-color: #000;
+}
+.navbar-nav > li {
+    float: left;
 }
 
 /* Programm details *
