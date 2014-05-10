@@ -8,7 +8,7 @@ body {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 0.5em 0;
+    margin: 0.5em 0;
 }
 
 a {
@@ -24,9 +24,15 @@ pre {
 }
 
 h1 {
-/*
-    text-align: right;
-*/
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-top: 5px;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.4em;
 }
 
 .navbar {
@@ -48,9 +54,10 @@ h1 {
         margin-left: -40px;
     }
 }
-@media (min-width: 1180px) {
+@media (min-width: 990px) {
     #logo {
         position: fixed;
+        top: 20px;
         margin-left: -100px;
     }
     #logo h1 {
@@ -68,7 +75,7 @@ h1 {
     border-bottom: 0.1em dotted #444;
 }
 .description {
-    padding-left: 80px;
+    padding-left: 100px;
 }
 .description h4 {
     margin-top: 0;
@@ -76,10 +83,18 @@ h1 {
 }
 .info-pratique {
     position: absolute;
-    width: 60px;
+    width: 90px;
     top: 0.5em;
-    left: 15px;
-    margin-right: 10px;
+    padding: 0 15px;
+}
+.info-pratique span {
+    display: block;
+}
+.horaire {
+    font-weight: bold;
+}
+.lieu {
+    font-style: italic;
 }
 .qui {
     font-weight: bold;
