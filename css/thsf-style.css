@@ -18,7 +18,6 @@ pre {
     overflow: inherit;
 }
 
-
 #logo > pre {
   color: #FFFFFF;
   font: 5px/3px monospace;
@@ -28,6 +27,20 @@ h1 {
 /*
     text-align: right;
 */
+}
+
+.navbar {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+.navbar-nav >li  {
+    float: left;
+}
+.section {
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
@@ -43,16 +56,6 @@ h1 {
     #logo h1 {
         margin-left: 60px;
     }
-}
-.nav {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 10;
-    background-color: #000;
-}
-.navbar-nav > li {
-    float: left;
 }
 
 /* Programm details *
@@ -75,7 +78,7 @@ h1 {
     position: absolute;
     width: 60px;
     top: 0.5em;
-    left: 0;
+    left: 15px;
     margin-right: 10px;
 }
 .qui {
