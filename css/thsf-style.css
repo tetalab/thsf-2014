@@ -5,6 +5,7 @@ body {
     font-size: 14px;
     color: #FFF;
     font-family: monospace;
+    padding-top: 60px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -20,7 +21,7 @@ pre {
 
 #logo > pre {
   color: #FFFFFF;
-  font: 5px/3px monospace;
+  font: 2px/1px monospace;
 }
 
 h1 {
@@ -52,6 +53,7 @@ h3 {
 @media (min-width: 768px) {
     #logo >pre {
         margin-left: -40px;
+        font: 5px/3px monospace;
     }
 }
 @media (min-width: 990px) {
